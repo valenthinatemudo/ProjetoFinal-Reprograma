@@ -1,96 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500&display=swap');
 
-.div-autora{
-    font-family: 'Quicksand', sans-serif;
-}
+    .div-autora {
+        font-family: 'Quicksand', sans-serif;
+    }
 
-.titulo-autora{
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-size: 32px;
-}
+    .titulo-autora {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 32px;
+    }
 
-.paragrafo{
-    background-color: #C5E1A5;
-    display: flex;
-    text-align: justify;
-    font-size: 18px;
-    padding: 20px;
-}
+    .paragrafo {
+        background-color: #C5E1A5;
+        display: flex;
+        text-align: justify;
+        font-size: 18px;
+        padding: 20px;
+    }
 
-.foto-autora{
-    width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-}
+    .foto-autora {
+        width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    }
 
-.section-skills-redes{
-    display: flex;
-    justify-content: center;
-}
+    .section-skills-redes {
+        display: flex;
+        justify-content: center;
+    }
 
-.skills-container{
-    display: flex;
-}
+    .skills-container {
+        display: flex;
+    }
 
-.descricao{
-    color: black;
-    font-size: 18px;
-    display: flex;
-    margin: 50px 30px 0px 20px;
-    font-size: 18px;
-}
-
-
-.skills-box {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 25px 20px 50px 20px;
-}
-
-.front-end{
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 10px;
-    padding-left: 10px;
-    border-left: 5px solid black;
-}
-
-.skills-box i {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: black;
-}
+    .descricao {
+        color: black;
+        font-size: 18px;
+        display: flex;
+        margin: 50px 30px 0px 20px;
+        font-size: 18px;
+    }
 
 
-.section-redes{
-    display: flex;
-}
+    .skills-box {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 25px 20px 50px 20px;
+    }
 
-.paragrafo-redes{
-    display: flex;
-    margin: 50px;
-    /* font-weight: bold; */
-    font-size: 18px;
-}
+    .front-end {
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 10px;
+        padding-left: 10px;
+        border-left: 5px solid black;
+    }
 
-.link-linkedin{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: black;
-    margin: 25px 20px 50px 20px;
-}
+    .skills-box i {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: black;
+    }
 
-.link-github{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: black;
-    margin: 25px 20px 50px 20px;
-}
+
+    .section-redes {
+        display: flex;
+    }
+
+    .paragrafo-redes {
+        display: flex;
+        margin: 50px;
+        font-size: 18px;
+    }
+
+    .link-linkedin {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: black;
+        margin: 25px 20px 50px 20px;
+    }
+
+    .link-github {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: black;
+        margin: 25px 20px 50px 20px;
+    }
+
+    @media(min-width: 414px) and (max-width: 1024px) {
+
+        .section-skills-redes {
+            display: grid;
+        }
+
+        .descricao {
+            display: flex;
+            text-align: center;
+        }
+
+        .link-github,
+        .link-linkedin {
+            margin: 10px;
+        }
+    }
+
+    @media(max-width: 1024px) {
+        
+    }

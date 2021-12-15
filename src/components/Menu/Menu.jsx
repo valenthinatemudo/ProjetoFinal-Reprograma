@@ -10,9 +10,6 @@ const Menu = () => {
             <li className="nutri">
                 <Link className="nutri-link" to='/nutri'>Nutri</Link>
             </li>
-            <li className="doacao">
-                <Link className="doacao-link" to='/doacao'>Doação</Link>
-            </li>
             <li className="autora">
                 <Link className="autora-link" to='/autora'>Autora</Link>
             </li>

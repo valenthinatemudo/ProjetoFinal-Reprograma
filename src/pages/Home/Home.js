@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
 import './home.styles.css'
 import FotoUm from '../../assets/img1.jpg'
+import { GoMail } from 'react-icons/go'
 
 const Home = () => {
     return (
@@ -24,27 +25,36 @@ const Home = () => {
                 <img align='right' className="foto-um" src={FotoUm} alt="Foto mãos" />
             </section>
             <section className="section-dados">
-                <header>
+                <header className="titulo-dados">
                     <h1 className="titulo-dados">Dados:</h1>
                     </header>
                     <ul className="lista-dados">
-                        <li>
+                        <li className="li-dados">
                              116,8 milhões (55%)passaram a conviver com algum grau de insegurança alimentar após a pandemia.
                         </li>
-                        <li>
+                        <li className="li-dados">
                             54,5 milhões (26%) não têm acesso a uma dieta nutritiva adequada.
                         </li>
-                        <li>
+                        <li className="li-dados">
                             43,4 milhões (21%) não têm condições de comprar alimento em quantidades suficientes.
                         </li>
-                        <li>
+                        <li className="li-dados">
                             19 milhões (9%) passam fome.
                         </li>
-                         <li>*
-                            Fonte: Rede Brasileira de Pesquisa em Soberania e Segurança Alimentar e Nutricional (Rede Penssan)
-                        </li>
                     </ul>
+                    <p className="paragrafo-dados">*
+                            Fonte: Rede Brasileira de Pesquisa em Soberania e Segurança Alimentar e Nutricional (Rede Penssan)
+                    </p>
             </section>  
+            <section className="section-doacao">
+                <header>
+                    <h1 className="titulo-doacao">Quer ajudar a combater a fome?</h1>
+                </header>
+                    <p className="paragrafo-doacao">
+                        Caso queira fazer doações entre em contato por esse email:
+                        <a href= "mailto:temudo.valenthina@gmail.com"> <GoMail className="mail" size={30}/></a>
+                    </p>
+            </section>
             <Footer />
         </div>
     )

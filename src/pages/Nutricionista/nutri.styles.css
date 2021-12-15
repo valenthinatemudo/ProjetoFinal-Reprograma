@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500&family=Roboto:wght@100;300&display=swap');
+
+.titulo-nutri{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+.section-frame{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.frame{
+    margin: 80px;
+}
