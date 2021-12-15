@@ -1,0 +1,23 @@
+.header {
+    padding-top: 2rem;
+}
+
+.titulo-header {
+    position: absolute;
+    color: black;
+    text-align:center;
+    width: 250px;
+    top: 30%;
+    margin-left: 35%;
+    font-size: 20px;
+    display: flex;
+}
+
+.img-header{
+    width: 100%;
+    height: 550px;
+    background:url(../../assets/foto-uva.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    opacity: 0.6;
+}

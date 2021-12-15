@@ -1,0 +1,47 @@
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500&display=swap');
+
+    .paragrafo-um {
+        display: flex;
+        text-align: center;
+        margin: 100px 30px 100px 30px;
+        font-size: 20px;
+    }
+
+    .section-foto{
+        display: flex;
+        background-color: #C5E1A5;
+    }
+
+    .foto-um {
+        width: 500px;
+        margin: 50px 30px 30px 20px;
+        border-radius: 10px;
+    }
+
+
+    .paragrafo-dois {
+        display: flex;
+        margin: 130px 30px 0px 20px;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .section-dados{
+       background-color: #1a1a1a;
+       color: #fff;
+    }
+
+    .titulo-dados{
+        display: flex;
+        justify-content: center;
+        line-height: 52px;
+        font-size: 44px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .lista-dados{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500&display=swap');
+
+.div-autora{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.titulo-autora{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 32px;
+}
+
+.paragrafo{
+    background-color: #C5E1A5;
+    display: flex;
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.foto-autora{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.section-skills-redes{
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container{
+    display: flex;
+}
+
+.descricao{
+    color: black;
+    font-size: 18px;
+    display: flex;
+    margin: 50px 30px 0px 20px;
+    font-size: 18px;
+}
+
+
+.skills-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 25px 20px 50px 20px;
+}
+
+.front-end{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-left: 5px solid black;
+}
+
+.skills-box i {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+
+.section-redes{
+    display: flex;
+}
+
+.paragrafo-redes{
+    display: flex;
+    margin: 50px;
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+
+.link-linkedin{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin: 25px 20px 50px 20px;
+}
+
+.link-github{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin: 25px 20px 50px 20px;
+}
