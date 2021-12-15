@@ -89,3 +89,14 @@
         justify-content: center;
         margin-left: 10px;
     }
+
+    @media(min-width: 414px) and (max-width: 1024px) {
+
+        .foto-um{
+            width: 50px;
+        }
+    }
+
+    @media(max-width: 1024px) {
+
+    }

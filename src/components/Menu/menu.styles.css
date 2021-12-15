@@ -34,3 +34,31 @@
         border-radius: 10px;
         padding:auto;
     }
+
+    @media(min-width: 414px) and (max-width: 1024px) {
+       
+        .menu{
+            width: 10px;
+            display: flex;
+            justify-content: space-around;
+           }
+
+           ul>li{
+            line-height: 10px;
+            font-size: 10px;
+        }
+    }
+
+    @media(max-width: 1024px) {
+       .menu{
+        margin: 50px auto 0;
+        width: 550px;
+        display: flex;
+        justify-content: space-around;
+       }
+
+       ul>li{
+           line-height: 80px;
+           font-size: 22px;
+       }
+    }
