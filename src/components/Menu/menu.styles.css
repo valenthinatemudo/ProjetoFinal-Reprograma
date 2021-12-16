@@ -16,25 +16,32 @@
 
     .home-link,
     .nutri-link,
-    .doacao-link,
     .autora-link {
         width: 110px;
         color: #fff;
-        display: block;
         text-decoration-line: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
-
+    
     .home-link:hover,
     .nutri-link:hover,
-    .doacao-link:hover,
     .autora-link:hover {
         background-color: #C5E1A5;
         color: black;
-        display: block;
         border-radius: 10px;
-        padding:auto;
     }
 
+    .home-link, .nutri-link{
+        
+    }
+
+    .icon-home, .icon-nutri, .icon-autora{
+        margin-top: 5px;
+    }
+    
     
 
     @media(min-width: 320px) and (max-width: 1024px) {
