@@ -12,7 +12,6 @@
         margin-left: 30%;
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
-
     }
 
     .img-header {
@@ -26,6 +25,7 @@
 
     @media(min-width: 414px) and (max-width: 1024px) {
         .img-header{
+           
             
         }
     }

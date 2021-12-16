@@ -35,17 +35,15 @@
         padding:auto;
     }
 
-    @media(min-width: 414px) and (max-width: 1024px) {
+    @media(min-width: 414px) and (max-width: 740px) {
        
         .menu{
-            width: 10px;
-            display: flex;
-            justify-content: space-around;
+            width: 50%;
            }
 
            ul>li{
             line-height: 10px;
-            font-size: 10px;
+            font-size: 50px;
         }
     }
 
