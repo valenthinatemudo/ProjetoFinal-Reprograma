@@ -92,11 +92,94 @@
 
     @media(min-width: 414px) and (max-width: 1024px) {
 
+        .section-foto{
+            display: grid;
+            grid-template-rows: 1fr;
+        }
+
+        .paragrafo-dois{
+            margin: 30px;
+        }
+
         .foto-um{
-            width: 50px;
+            width: 90%;
+            margin: 5px 20px 20px;
+        }
+
+        .titulo-dados{
+            font-size: 30px;
+        }
+
+        .lista-dados{
+            margin: 5px 50px 20px 20px;
+        }
+
+        .li-dados{
+            font-size: 13px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .paragrafo-dados{
+            font-size: 10px;
+            margin: 10px;
+        }
+
+        .titulo-doacao{
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .paragrafo-doacao{
+            display: grid;
+            text-align: center;
+            font-size: 20px;
+            margin: 20px 20px 50px ;
+        }
+
+        .mail{
+            margin: 10px 200px;
         }
     }
 
-    @media(max-width: 1024px) {
+    @media(min-width: 1024px) and (max-width: 1440px) {
+        .section-foto{
+            display: flex;
+        }
 
+        .paragrafo-dois{
+            font-size: 20px;
+        }
+
+        .foto-um{
+            width: 50%;
+            margin: 30px;
+        }
+
+        .titulo-dados{
+            font-size: 40px;
+        }
+
+        .li-dados{
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .paragrafo-dados{
+            font-size: 15px;
+        }
+
+        .titulo-doacao{
+            font-size: 30px;
+        }
+
+        .paragrafo-doacao{
+            font-size: 25px;
+        }
+        
+        .mail{
+            margin-left: 300px;
+        }
     }
