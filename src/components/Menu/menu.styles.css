@@ -35,12 +35,17 @@
         padding:auto;
     }
 
-    @media(min-width: 414px) and (max-width: 1024px) {
+    
+
+    @media(min-width: 320px) and (max-width: 1024px) {
        
         .menu{
             width: 350px;
             height: 20px;
-            padding: 5px;
+            padding: 8px;
+            display: flex;
+            justify-content: center;
+
            }
 
            ul>li{

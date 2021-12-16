@@ -5,7 +5,7 @@
     }
 
     .img-header {
-        height: 400px;
+        height: 500px;
         background: linear-gradient(rgba(14, 13, 13, 0.4),
                 rgba(7, 7, 7, 0.4)), url(../../assets/alimentos.jpg) no-repeat;
         background-size: cover;
@@ -24,12 +24,13 @@
     }
 
 
-    @media(min-width: 414px) and (max-width: 1023px) {
+    @media(min-width: 320px) and (max-width: 1024px) {
 
         .img-header{
-            width: 422px;
-           margin-top: 10px;
-           height: 250px;
+           /* width: 100%; */
+           max-width: 100%;
+           /* margin-top: 10px; */
+           height: auto;
         }
 
         .titulo-header{

@@ -95,8 +95,7 @@
         margin: 25px 20px 50px 20px;
     }
 
-    @media(min-width: 414px) and (max-width: 1024px) {
-
+    /* @media(max-width: 320px){
         .section-skills-redes {
             display: grid;
         }
@@ -114,6 +113,41 @@
         .descricao {
             display: flex;
             text-align: center;
+        }
+
+        .link-github,
+        .link-linkedin {
+            margin: 10px;
+        }
+    } */
+
+    @media(min-width: 320px) and (max-width: 1024px) {
+
+        .section-skills-redes {
+            display: grid;
+        }
+
+        .titulo-autora{
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .foto-autora{
+            width: 200px;
+        }
+
+        .paragrafo-autora{
+            width: 100%;
+        }
+
+        .descricao {
+            display: flex;
+            justify-content: center;
+        }
+
+        .skills-container{
+            display: grid;
         }
 
         .link-github,
