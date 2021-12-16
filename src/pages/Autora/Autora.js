@@ -16,7 +16,7 @@ const Autora = () => {
             <h1 className='titulo-autora'>Sobre a Autora</h1>
             <img className='foto-autora' src={AutoraImagem} 
             alt='foto da autora'/>
-            <p className='paragrafo'>Me chamo Valenthina Temudo, tenho 25 anos e sou recifense. Sou nutricionista de formação e desenvolvedora front-end formada pelo bootcamp "Todas Em Tech - Turma 13" da reprograma. Embora tenha cursado nutrição e trabalhado na área, não me encontrei na profissão e decidi seguir meu coração e apreender minha segunda paixão, a tecnologia. Descobri então no front-end uma oportunidade de recomeço e desde então busco me aperfeiçoar e estudar todos os dias para atingir meus objetivos.</p>
+            <p className='paragrafo-autora'>Me chamo Valenthina Temudo, tenho 25 anos e sou recifense. Sou nutricionista de formação e desenvolvedora front-end formada pelo bootcamp "Todas Em Tech - Turma 13" da reprograma. Embora tenha cursado nutrição e trabalhado na área, não me encontrei na profissão e decidi seguir meu coração e apreender minha segunda paixão, a tecnologia. Descobri então no front-end uma oportunidade de recomeço e desde então busco me aperfeiçoar e estudar todos os dias para atingir meus objetivos.</p>
            <section className="section-skills-redes">
            <section className="skills-container">
                 <p className="descricao">Tecnologias que domino:</p>
