@@ -1,16 +1,17 @@
 import Menu from "../../components/Menu/Menu"
-import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
 import './home.styles.css'
 import FotoUm from '../../assets/atencao.svg'
 import { GoMail } from 'react-icons/go'
+import FotoMao from '../../assets/img1.jpg'
 
 const Home = () => {
     return (
         <div>
             <Menu />
-            <Header />
-           <section>
+                <h1 className='titulo-home'>Alimentação básica para todos</h1>
+           <section className="section-home">
+                <img src={FotoMao} align='left' className='foto-home' alt='foto de uma mao'/>
                 <p className="paragrafo-um">
                 Mais da metade da população brasileira — 116 milhões de pessoas — vive com algum grau de insegurança alimentar. Ao menos 19 milhões estão passando fome, situação agravada pela pandemia e pela crise econômica do país. Os dados são de levantamento da Rede Brasileira de Pesquisa em Soberania e Segurança Alimentar e Nutricional (Rede Penssan).
                 Há muitas consequências decorrentes da insegurança alimentar e da fome, elas envolvem problemas de saúde que se transformam em mazelas sociais, econômicas e educacionais e podem ser irreversíveis, sobretudo nas crianças.

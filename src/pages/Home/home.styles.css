@@ -1,9 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500&family=Roboto:wght@100;300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500&family=Roboto:wght@100;300&display=swap');
+
+    .titulo-home {
+        color: black;
+        text-align: center;
+        margin-top: 5%;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .foto-home {
+        width: 40%;
+        margin: 50px;
+        border-radius: 10%;
+    }
 
     .paragrafo-um {
         display: flex;
         text-align: justify;
-        margin: 100px 30px 50px 50px;
+        margin: 130px 30px 50px 50px;
         font-size: 20px;
     }
 
@@ -47,10 +61,10 @@
     .lista-dados {
         display: grid;
         grid-template-columns: 2fr 2fr;
-	    grid-auto-columns: 100px;
+        grid-auto-columns: 100px;
     }
 
-    .li-dados{
+    .li-dados {
         margin: 10px;
         background: #fff;
         padding: auto;
@@ -60,22 +74,22 @@
         box-shadow: 0 0 1em black;
     }
 
-    .paragrafo-dados{
+    .paragrafo-dados {
         display: flex;
         font-size: 15px;
         margin: 30px;
         color: black;
     }
 
-    
+
     .titulo-doacao {
         display: flex;
         justify-content: center;
         line-height: 52px;
-        font-size: 40px;
+        font-size: 30px;
     }
 
-    .paragrafo-doacao{
+    .paragrafo-doacao {
         color: black;
         margin: 100px;
         display: flex;
@@ -84,7 +98,7 @@
     }
 
     .mail {
-        color:black;
+        color: black;
         display: flex;
         justify-content: center;
         margin-left: 10px;
@@ -92,95 +106,110 @@
 
     @media(min-width: 320px) and (max-width: 1024px) {
 
-        .section-foto{
+        .section-home{
             display: grid;
             grid-template-rows: 1fr;
-            
         }
 
-        .paragrafo-dois{
+
+        .foto-home{
+           margin-left: 5%;
+           width: 350px;
+        }
+
+        .paragrafo-um {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .section-foto {
+            display: grid;
+            grid-template-rows: 1fr;
+        }
+
+        .paragrafo-dois {
             margin: 30px;
         }
 
-        .foto-um{
+        .foto-um {
             width: 90%;
             margin: 5px 20px 20px;
         }
 
-        .titulo-dados{
+        .titulo-dados {
             font-size: 30px;
         }
 
-        .lista-dados{
+        .lista-dados {
             margin-right: 30px;
         }
 
-        .li-dados{
+        .li-dados {
             font-size: 10px;
             padding: 10px;
             display: flex;
             align-items: center;
         }
 
-        .paragrafo-dados{
+        .paragrafo-dados {
             font-size: 10px;
             margin: 0 auto;
         }
 
-        .titulo-doacao{
+        .titulo-doacao {
             font-size: 20px;
             text-align: center;
         }
 
-        .paragrafo-doacao{
+        .paragrafo-doacao {
             display: grid;
             text-align: center;
             font-size: 15px;
             margin: 20px 20px 50px;
         }
 
-        .mail{
+        .mail {
             margin: 10px 200px;
         }
     }
 
-    @media(min-width: 1024px) and (max-width: 1110px){
-        .section-foto{
+    @media(min-width: 1024px) and (max-width: 1110px) {
+        .section-foto {
             display: flex;
         }
 
-        .paragrafo-dois{
+        .paragrafo-dois {
             font-size: 20px;
         }
 
-        .foto-um{
+        .foto-um {
             width: 50%;
             margin: 30px;
         }
 
-        .titulo-dados{
+        .titulo-dados {
             font-size: 40px;
         }
 
-        .li-dados{
+        .li-dados {
             font-size: 20px;
             display: flex;
             justify-content: center;
         }
 
-        .paragrafo-dados{
+        .paragrafo-dados {
             font-size: 15px;
         }
 
-        .titulo-doacao{
+        .titulo-doacao {
             font-size: 30px;
         }
 
-        .paragrafo-doacao{
+        .paragrafo-doacao {
             font-size: 25px;
         }
-        
-        .mail{
+
+        .mail {
             margin-left: 300px;
         }
     }
