@@ -4,24 +4,18 @@
         padding-top: 2rem;
     }
 
-    .img-header {
-        height: 500px;
-        background: linear-gradient(rgba(14, 13, 13, 0.4),
-                rgba(7, 7, 7, 0.4)), url(../../assets/alimentos.jpg) no-repeat;
-        background-size: cover;
-        margin-top: 10px;
-        display: flex;
-        justify-content: center;
-        opacity: 0.5;
-        border-radius: 50%; 
-    }
-
     .titulo-header {
         color: black;
         text-align: center;
-        margin-top: 25%;
+        margin-top: 5%;
         font-size: 25px;
         font-family: 'Roboto', sans-serif;
+    }
+
+    .foto-header{
+        width: 40%;
+        margin: 50px ;
+        border-radius: 10%;
     }
 
 

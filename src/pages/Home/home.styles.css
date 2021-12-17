@@ -2,8 +2,8 @@
 
     .paragrafo-um {
         display: flex;
-        text-align: center;
-        margin: 100px 30px 100px 30px;
+        text-align: justify;
+        margin: 100px 30px 50px 50px;
         font-size: 20px;
     }
 
