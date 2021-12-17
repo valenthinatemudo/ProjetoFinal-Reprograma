@@ -34,21 +34,15 @@
         border-radius: 10px;
     }
 
-    .home-link, .nutri-link{
-        
-    }
-
     .icon-home, .icon-nutri, .icon-autora{
         margin-top: 5px;
     }
-    
-    
 
     @media(min-width: 320px) and (max-width: 1024px) {
        
         .menu{
             width: 350px;
-            height: 20px;
+            height: auto;
             padding: 8px;
             display: flex;
             justify-content: center;
