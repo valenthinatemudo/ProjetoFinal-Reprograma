@@ -2,7 +2,7 @@ import Menu from "../../components/Menu/Menu"
 import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
 import './home.styles.css'
-import FotoUm from '../../assets/img1.jpg'
+import FotoUm from '../../assets/atencao.svg'
 import { GoMail } from 'react-icons/go'
 
 const Home = () => {
